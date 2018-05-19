@@ -14,7 +14,7 @@ class Shoe
     BRANDS << brand 
   end 
   
-  BRANDS.each do |x|
+  BRANDS.count do |x|
     if x.count >= 2 
       x.delete
     else 
