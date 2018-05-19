@@ -15,8 +15,9 @@ class Shoe
   end 
   
   BRANDS.count do |x|
-    if x.count >= 2 
-      x.delete
+    counter == 0
+    if x.count == 1 
+      
     else 
 
   def cobble
