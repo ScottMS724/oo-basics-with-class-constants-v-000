@@ -13,6 +13,8 @@ class Shoe
     @brand = brand 
     BRANDS << brand 
   end 
+  
+  BRANDS.count
 
   def cobble
     self.condition = "new"
