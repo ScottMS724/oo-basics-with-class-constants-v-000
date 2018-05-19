@@ -14,7 +14,7 @@ class Shoe
     BRANDS << brand 
   end 
   
-  BRANDS.count{
+  BRANDS.count { |unique_brand| 
 
   def cobble
     self.condition = "new"
